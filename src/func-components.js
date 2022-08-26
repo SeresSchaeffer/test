@@ -33,4 +33,7 @@ export const Footer = () =>{
         </div>
     )
 }
+export function f(){
+    <div><p>kuy</p></div>
+}
 
