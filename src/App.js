@@ -4,10 +4,12 @@ import { Content, Footer, Header } from './func-components';
 import MsgBox from './class-props';
 import Banner from './banners';
 import { EventData1 } from './event-data';
+import RefClass from './refs-class';
 
 function App() {
   return (
     <>
+    <RefClass/>
     <Header/><Content/>
     <MsgBox
       text="React & React Native"

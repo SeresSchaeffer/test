@@ -10,9 +10,9 @@ export function Header(){
 
     return(
         <div style={{blackgroundColor:'#ccc'}}>
-            <a href='' style={aStyle}>Home</a>|&nbsp;
-            <a href='' style={aStyle}>React</a>|&nbsp;
-            <a href='' style={aStyle}>React Native</a>
+            <a href='/' style={aStyle}>Home</a>|&nbsp;
+            <a href='/' style={aStyle}>React</a>|&nbsp;
+            <a href='/' style={aStyle}>React Native</a>
         </div>
     )
 }
