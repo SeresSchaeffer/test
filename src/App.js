@@ -7,12 +7,16 @@ import { EventData1 } from './event-data';
 import RefClass from './refs-class';
 import RefsArray from './refs-array';
 import MessageBox from './state-func';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import FormValidation from './form-validation';
 
 function App() {
   return (
     <>
     <RefClass/>
     <Header/>
+    <FormValidation/>
     <MessageBox/>
     <RefsArray/>
     <Content/>
